@@ -1,0 +1,169 @@
+---
+layout: compress
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 2018/head.html %}
+
+<body>
+    <div id="preloader" class="preloader">
+        <!--div class="loader-gplus"></div!-->
+        <img src="{{site.data.y2018.conf.baseurl}}/img/other/loading.gif" alt="Loading icon" class="loader-gif">
+    </div>
+
+    <div id="st-container" class="st-container disable-scrolling">
+        <div class="st-pusher">
+            <div class="st-content">
+
+                {{ content }} 
+
+                {% include 2018/footer.html %}
+
+            </div>
+        </div>
+    </div>
+
+    {% if page.modal != null %} 
+    	{% include 2018/speakers-modals.html %} 
+    {% endif %} 
+
+    {% if page.permalink == '/2018/schedule/' or page.permalink == '/2018/workshops/' %}
+        {% include 2018/sessions-modals.html %} 
+    {% endif %} 
+
+    {% include 2018/analytics.html %}
+    <link rel="stylesheet" href="{{ site.data.y2018.conf.baseurl }}/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="{{ site.data.y2018.conf.baseurl }}/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="{{ site.data.y2018.conf.baseurl }}/css/ideal-image-slider.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.data.y2018.conf.baseurl }}><\/script>')
+    </script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script>
+    if (typeof($.fn.modal) === 'undefined') {
+        document.write('<script src="{{ "/js/bootstrap.min.js" | prepend: site.data.y2018.conf.baseurl }}><\/script>')
+    }
+    </script>
+    <script src="{{ site.data.y2018.conf.baseurl }}/owlcarousel/owl.carousel.min.js"></script>
+    <script src="{{ "/js/default.js" | prepend: site.data.y2018.conf.baseurl }}"></script>
+    {% if page.permalink == '/2018/' %}
+    <script src="{{site.data.y2018.conf.baseurl}}/js/ideal-image-slider.min.js"></script>
+    <script>
+    var slider = new IdealImageSlider.Slider({
+        selector: '#slider',
+        height: 512,
+        interval: 4000,
+        effect: 'fade'
+    });
+    slider.start();
+    </script>
+    {% endif %}
+    {% if page.permalink == '/2018/' or page.permalink == '/2018/hotel/' %}
+    <script>
+        {% if page.permalink == '/2018/' or page.permalink == '/2018/hotel/' %}
+
+            {% if page.permalink == '/2018/' %}
+                var zoomAmount = 14;
+                var panCoord = {lat:38.71,lng: -9.149948}; 
+            {% else %}
+                var zoomAmount = 18;
+                var panCoord = {lat:38.7203,lng: -9.149948}; 
+            {% endif %}
+            
+
+            var icon = '{{ site.data.y2018.conf.baseurl }}/img/other/map-marker.svg';
+            var coordinates = {lat: 38.720760, lng: -9.149948};
+            function detectBrowser() {
+                var useragent = navigator.userAgent;
+                var mapdiv = document.getElementById("canvas-map");
+            
+                if (useragent.indexOf('iPhone') != -1 || useragent.indexOf('Android') != -1 ) {
+                mapdiv.style.width = '100%';
+                } else {
+                mapdiv.style.width = '600px';
+                }
+            }
+            function initMap() {
+                var map = new google.maps.Map(document.getElementById('canvas-map'), {
+                    center: coordinates,
+                    zoom: zoomAmount,
+                });
+                map.panTo(panCoord);
+                var marker = new google.maps.Marker({position: coordinates, map: map});
+            }
+        {% endif %}
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key={{site.data.y2018.conf.mapsAPIKey}}&callback=initMap"async defer></script>
+    {% endif %}
+    <script>
+        Waves.displayEffect();
+        {% if page.permalink == '/2018/' %}            
+            var twitterFeedUrl = '{{ site.data.y2018.conf.twitterFeed }}';
+            $(document).ready(function () {
+                $(function () {
+                    if ($(window).width() > 767) {
+                        $("#typeout-text").typed({
+                            strings: [{{site.data.y2018.conf.typeoutTextValues}}],
+                            typeSpeed: 150,
+                            backDelay: 900,
+                            loop: true
+                        });
+                    }
+                });
+                var rockstarSpeakers = [
+                    {% for speaker in site.data.y2018.speakers %}
+                        {% if speaker.rockstar %}
+                        {name: "{{ speaker.name }} {{ speaker.surname }}", company: "{{ speaker.company }}",link: "{{speaker.social[0].link}}", image: "{{ site.data.y2018.conf.baseurl | append: '/img/people/' | append: speaker.thumbnailUrl }}"}{% if forloop.index != forloop.length %},{% endif %}
+                        {% endif %}
+                    {% endfor %}
+                ];
+                rockstarSpeakers.sort(function() {return 0.5 - Math.random()});
+                if(rockstarSpeakers.length > 0) {
+                    var animationDelay = 1500,
+                        count = Math.min({{ site.data.y2018.conf.rockstarSpeakersCount }}, rockstarSpeakers.length),
+                        colWidth = 12/count;
+                    for(i=0; i<count; i++) {
+                        var clearfix = '<div class="clearfix visible-xs"></div>';
+                        if ((i)%2 != 0) {
+                            clearfix = ""
+                        }
+                        $('#rockstar-speaker-title').after('<div class="col-md-'+ colWidth +' col-xs-6 rockstar-speakers-item animated hiding" data-animation="fadeInUp" data-delay="' + animationDelay +'"><a class="rockstar-speaker" href="' + rockstarSpeakers[i].link +'"><div class="flow-img img-circle rockstar-speaker-img" style="background-image: url(' + rockstarSpeakers[i].image + ')"></div><div class="name">' + rockstarSpeakers[i].name + '</div><div class="sub">' + rockstarSpeakers[i].company + '</div></a></div>' + clearfix);
+                        animationDelay -= 500;
+                    }
+                }
+                $('.owl-carousel').owlCarousel({
+                    margin:10,
+                    nav:true,
+                    responsive:{
+                        0:{
+                            items:1
+                        },
+                        600:{
+                            items:3
+                        },
+                        1000:{
+                            items:4
+                        }
+                    }
+                })
+            });
+        {% endif %} 
+    </script>
+    <script src="{{ "/js/scripts.min.js" | prepend: site.data.y2018.conf.baseurl }}"></script>
+    {% if page.permalink == '/2018/schedule/' %}
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var navHeight = $('#top-header').height();
+                var headerHeight = $('.track-header').first().height();
+                $('.stick-header').stick_in_parent({sticky_class: 'sticky', offset_top: navHeight});
+                $('.stick-label').stick_in_parent({offset_top: navHeight + headerHeight});
+            });
+        </script>
+    {% endif %}
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+# Plugins
+plugins:
+- jekyll-sitemap
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
+
+googleAnalyticsTrackingId: "UA-116477690-1" #updated
+googleAnalyticsSiteUrl: "ineeve.github.io"
+siteVerification: "-UOKvLpDAlUgoO9zNYHk_y3jajbBnIG_T5MtkqzzwjM" #updated
+url: "https://testingportugal.pstqb.pt"
+
+
+# Head
+title: "Testing Portugal"
+twitterAccount: "@PSTQB"
+metaKeywords: "event, tests, software, programming, developers, automation, conference"
+email: "testingportugal@pstqb.pt"
+description: "Testing Portugal é uma conferência anual sobre testes de software"
+
+archiveLinks:
+ - {permalink: "/", text: "2019"}
+ - {permalink: "/2018/", text: "2018"}
+

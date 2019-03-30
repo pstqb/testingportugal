@@ -1,0 +1,28 @@
+.how-to-arrive{
+    ul{
+        padding: 0;
+        margin-top: 2em;
+        text-align: center;
+        list-style: inside;
+        list-style-type: none;
+    }
+    h4 {
+        color: $main-color;
+    }
+    ol{
+        margin: 0 auto;
+        list-style-type: decimal;
+        text-align: left;
+        display: -moz-inline-stack;
+        display: inline-block;
+        zoom: 1;
+    }
+    .metro-line{
+        text-align: left;
+        font-weight: 400;
+        margin-left: 10em;
+        @media (max-width: 767px) {
+            margin-left: 5px;
+        }
+    }
+}

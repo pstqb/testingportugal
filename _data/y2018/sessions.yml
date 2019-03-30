@@ -1,0 +1,287 @@
+-
+  id: 200
+  title: "Coffee Break"
+  place: "Hall"
+  service: true
+  descriptions: ["O melhor momento para falar com oradores e participantes"]
+-
+  id: 201
+  title: "Almoço"
+  place: "Sala de almoço"
+  service: true
+  descriptions: ["O melhor momento para falar com oradores e participantes"]
+-
+  id: 202
+  title: "Abertura PSTQB"
+  speakers: [6]
+  language: pt
+-
+  id: 203
+  title: "Encerramento"
+  speakers: [7]
+  language: pt
+-
+  id: 204
+  title: "Sorteio / Entrega de Prémios"
+  language: pt
+-
+  id: 205
+  title: "Receção e Check-in"
+-
+  id: 005
+  title: "Whole team quality – in the same boat or up the creek?"
+  descriptions: ["<p>Those three little words. No, not those three, the other three:</p>
+    <p>“<strong>Whole Team Quality!</strong>”</p>
+    <p>We know that successful agile teams live and breathe by this principle. But what does it actually mean in practice – and what does it not definitely not mean?</p>
+    <p>In this keynote, I’ll look at techniques teams can use to evolve their testers and developers and to empower the team to (want to) be responsible for quality together – without suggesting that what we really need is just a great super role that can do everything. I’ll tell some stories about things that have and haven’t worked and I’ll address some of the questions and fears that come up when we talk about whole team quality.</p>"]
+  subtype: keynote
+  speakers: [3]
+  language: en
+-
+  id: 006
+  title: "7 skills to drive a successful team"
+  descriptions: ["<ul>
+    <li>Are you working in Agile mode and facing problems on how to align your team?</li>
+    <li>Are you missing soft skills and communication training to help you support your hard skills?</li>
+    <li>Do you think hard skills are necessary but not making it all?</li>
+    <li>Are you involved in business analysis, quality?</li>
+    <li>Are you a team leader, a manager, a product owner, a project leader?</li>
+    <li>Do you think projects and products are made by people?</li>
+    <li>Do you think projects and products are made for people?</li>
+    <li>Do you think company culture, values, emotions need to be taken care of?</li>
+    <li>Do you think it is sometimes hard to explain oneself, sell the idea to others, get listened to?</li>
+    <li>Do you fear to develop the wrong product, unusable functionality?</li>
+    <li>Do you think that stories and packaging are sometimes as valuable as contents when it comes to tell/sell?</li>
+    <li>Do you get a hard time when it comes to innovate, find and develop ideas?</li>
+    <li>Do you fear to miss what your users really want? Do you feel hard to get a grip on them?</li>
+    </ul>
+    <p>If you answered <strong>YES for at least two of those questions, this short presentation is for you</strong>.</p>
+    <p>It is a 40 minutes eye opener supporting a whole model and concept developed for more than on year by 4 successful professionals in IT, Testing, BA, Requirements engineering, usability and psychology. This is a no-nonsense approach based on renowned approaches and standards, aiming at helping you within you project/product/service development journey. Let’s 7 skills and succeed together, as a team.</p>"]
+  subtype: keynote
+  speakers: [5]
+  language: en
+  presentation: "/assets/7skills_Olivier.pdf"
+-
+  id: 007
+  title: "DevOps: A Future Proof to Testing"
+  descriptions: ["<p>“<strong>The art of simplicity is a puzzle of complexity.</strong>”</p>
+    <p>This is how I see testing going with the advancements in testing where we will in the near future see more and more AI driven testing incorporated into a DevOps environment.</p>
+    <p>We will discuss:
+    <ul>
+    <li>The World of DevOps</li>
+    <li>6 steps in DevOps</li>
+    <li>Making the Cultural Transition to DevOps</li>
+    <li>DevOps and where the future lies AI style</li>
+    </ul></p>"]
+  subtype: keynote
+  speakers: [4]
+  language: en
+  presentation: "/assets/DevOps_Damien.pdf"
+-
+  id: 008
+  title: "Artificial Intelligence: The Future of Testing Software"
+  descriptions: ["<p>Adopting Artificial Intelligence in testing is a must for organisations. Their survival in the medium term relies on this. But many organisations have a low maturity in managing the quality of their software applications. Faced with arbitrary test data and with many still embarking on the journey to shift left with test automation, very few have the faintest idea where to start.</p><p>What do we do with all the hype around Artificial Intelligence? Which of the myriad voices and doomsayers do we believe? How do we determine which of the vendors pitching their offerings can be trusted? What are the first steps to take to embark on a successful Artificial Intelligence journey?</p>"]
+  subtype: keynote
+  speakers: [8]
+  language: en
+-
+  id: 009
+  title: "Sharing Experiences: How AI can change the way companies buy and suppliers sell?"
+  descriptions: ["<p>This presentation touches the transformation that WinTrust has assisted in the market landscape and it is moderated by Filipe Nuno Carlos. At first, he will illustrate how WinTrust changed in the last 12 months to address market needs. Secondly, he asks the UK Managing Director to explain how companies is changing the procurement process and what enterprise companies expect from a service provider (based on a real experience). Thirdly, he asks the InnSpect Product Manager to provide his opinion regarding the impact of AI in the testing teams and in the buyers’ perspective.</p><p>If you enjoy interviews supported by specialists explaining the future trends, this session is for you.</p>"]
+  subtype: diamond
+  speakers: [17,18,19]
+  language: en
+-
+  id: 010
+  title: "Intelligent Testing - Applying Artificial Intelligence to Optimize the Testing Process"
+  descriptions: ["Intelligent Testing - Applying Artificial Intelligence to Optimize the Testing Process"]
+  subtype: diamond
+  speakers: [9]
+  language: en
+-
+  id: 011
+  title: "Da Automatização de Testes à Inteligência Artificial em RPA"
+  descriptions: [""]
+  subtype: "diamond"
+  speakers: [15,16]
+  language: pt
+-
+  id: 012
+  title: "Em atualização"
+  descriptions: [""]
+  subtype: "Call For Speakers"
+  speakers: []
+  language: en
+-
+  id: 013
+  title: "User Experience (UX) Testing is not Rocket Science!"
+  descriptions: ["<p>For some reason, people not involved with the field of User Experience and Usability have the idea that user experience testing in general is as difficult as rocket science—especially for mobile and the constraints it comes with.</p>
+    <p>I hear from people that the main reasons for not conducting user experience tests are that they don’t have the know-how, “enough” time, and, most commonly, the budget. Of course, some approaches can be very difficult, take a lot of time, and be very expensive. But they don’t have to be. With this session, I will discuss some of the approaches we (as TesterYou) use for user experience testing to keep all these factors as low as possible. I'll also address how mobile usability testing differs from desktop usability testing.</p>
+    <p>Hopefully the attendees will leave the session with an understanding of how to choose their user experience testing approach and how to select their targeted users, test scenarios and usability testing tools.</p>
+    <strong>Key Benefits</strong>
+    <ul>
+    <li>Understanding the Agile World and Digitalization</li>
+    <li>Observing, Understanding and Interpreting the Users and Their Behavior</li>
+    <li>Establishing the right User Experience Testing Strategy (Defining the Personas and Prioritizing the Test Scenarios)</li>
+    <li>Choosing the right UX Testing Techniques & Tools</li>
+    </ul>"]
+  subtype: "keynote"
+  speakers: [2]
+  language: en
+-
+  id: 020
+  title: "The testing challenges of a bigdata product integrated in a IOT project"
+  descriptions: ["<p>Hitachi has a huge product based in bigdata integrations that allows clients to process a large quantity of data in a small period. The business analytics empower business users with interactive, real-time visual data analysis and predictive modeling, with minimal IT support. They have a community edition that is free and develop a simpler product easy to understand and get inputs of the community to create a powerful tool that can help clients to improve their business. One of the major advantage of the community is to get answers from technical experts, discover insights from IoT thought leaders, and make connections with industry peers. The enterprise edition of the product enables users to ingest, blend, cleanse and prepare diverse data from any source. With visual tools to eliminate coding and complexity, Hitachi puts the best quality data at the fingertips of IT and the business. Dynamic and reusable data integration templates enable users to create transformations on the fly and accelerate time to value by uncovering real-time insights into a wide range of use cases, modernizing processing, and gaining control of the increasing volume of data. The product integration to IoT is a simple process, that has no coding requirement or complexity, and can accelerate some business or reduce response time of the company to some challenges.  IoT, identifies the advanced devices connectivity, systems and services beyond the class web and network connections of information technology systems (IT and PCs). IoT includes many protocols, many devices environments, and even more applications. Testing this product and their infinity integrations and platforms is a huge challenge, since we must carry about usability, security, connectivity, performance, compatibility of different software versions, different platforms and Databases.</p>"]
+  subtype: "callforspeakers"
+  speakers: [10]
+  language: en
+  presentation: "/assets/BigData_MargaridaLeite.pdf"
+-
+  id: 021
+  title: "96% successful daily releases with 5000+ regression tests!"
+  descriptions: ["The key guideline for valuable and efficient DevOps chains is feedback: to receive feedback as soon as possible in the implementation chain allows enterprises to reduce costs and augment business value. Thus, the impacts of quick feedback are not visible only by IT departments, but also by business teams and customers. As software development is mainly a human-based task, programs suffer from a phenomenon called bugs. Moreover, as exhaustive testing is deemed as impossible, IT teams’ ambition is to maximize the testing automation. La Redoute IT reaches for this goal through Cerberus, an in-house tool, which performs functional automated tests and that is a pivotal component of the CI/CD pipelines."]
+  subtype: "callforspeakers"
+  speakers: [13,14]
+  language: en
+  presentation: "/assets/LaRedoute_Cerberus.pdf"
+-
+  id: 022
+  title: "Testes de Software no segmento de Ciências da Vida"
+  descriptions: ["O segmento de Ciências da Vida é composto pelas indústrias farmacêutica, farmoquímica, dispositivos médicos, produtos para a saúde, cosméticos e inclusive a veterinária, bem como pelos prestadores de serviço especializado tais como logística, medicina diagnóstica, estudos clínicos, hospitais, laboratórios de análise físico-química e tantos outros que direta ou indiretamente participam da cadeia de desenvolvimento, produção e distribuição de produtos que afetam a saúde do ser humano.",
+  "Nesta sessão, vamos compartilhar com o público informações sobre a importância dos testes de software neste segmento, onde a consequência de um teste escrito sem o uso das técnicas adequadas pode ser, no pior caso, a perda de vidas humanas."]
+  subtype: "callforspeakers"
+  speakers: [11]
+  language: pt
+-
+  id: 023
+  title: "How I automate negative tests"
+  descriptions: ["Negative Tests/Sad Tests/Alternate Tests are always tricky to automate - it&#39;s different than automating a positive/happy path test. Initially, while the negative test is developed often it&#39;s productive but over time as the application/testable product changes the negative tests may result in false positives or altogether irrelevant!",
+  "In this talk, I like to share my experiences using real-life project examples that helped me to come up with concrete negative assertions, assertions that were relevant to the expected behavior of the application. I would share with actual and/or pseudo code examples to demonstrate the assertions. The talk would describe the lessons that I learned over time, resulting in better negative assertions."]
+  subtype: "callforspeakers"
+  speakers: [12]
+  language: en
+
+-
+  id: 101
+  title: "Agile Testing"
+  descriptions: ["<strong>Course Objective</strong>:",
+    "<ul><li>The course will provide an overview of Agile Frameworks and the role of the tester while addressing Agile Testing at every stage of the Agile or waterfall/hybrid lifecycle, and various Agile maturity levels.</li><li>The course will help you in boosting your knowledge regarding to testing roles, required skills and latest trends for Lean/Agile Projects.</li><li>The course will help you in learning the best practices and have hands-on testing experience for successful projects.</li></ul>",
+    "<strong>Intended Audience</strong>:",
+    "<ul><li>Agile Team Members, Test Engineers, QA Specialists, Business Analysts, System Analysts, Software Engineers, Test Managers, Project Managers, Enterprise Architects</li></ul>",
+  ]
+  subtype: workshop
+  status: "ESGOTADO"
+  speakers: [2]
+  place: "Lisboa, Altis Grand Hotel"
+  language: en
+  price: "<a href='#prices'>Consultar tabela de preços</a>"
+  moreinfo: "/assets/TesterYou_Trainings.pdf"
+  date: 20 de novembro
+-
+  id: 102
+  title: "TeSTO: Techniques for Software Testing Optimization"
+  status: "ESGOTADO"
+  descriptions: ["Are you doing software testing? And are you doing it optimizing your effort?",
+    "In our days, the demanding to reduce the time to market is becoming almost insane. With the always increasing complexity (risk) of the systems at the same time that we have shorter development cycles (time) with the advent of the agile methodologies, software testers are always under pressure to ensure more quality with less effort (cost). Is it possible?",
+    "Short answer: yes!",
+    "In most of the cases, yes, it is possible. However, the solution is rarely to reduce the testing effort. Instead, you should focus on how to optimize it (delivering more value with the same effort it’s also a way to reduce costs)! In this workshop, we will discuss the main points of waste in the testing activities and put in practice several techniques (and advices) to help on reducing the waste while optimizing the effort.",
+    "This is a practical workshop so you will need a white A4 page, a pencil (or pen) and a windows based laptop because besides the techniques, you will also install and learn how to use a simple web testing automation tool."]
+  subtype: workshop
+  speakers: [6]
+  place: "Lisboa, Altis Grand Hotel"
+  language: pt
+  price: "<strong>Grátis e exclusivo apenas para Associados da PSTQB</strong>"
+  #presentation: "http://joel-oliveira.appspot.com/training/testo"
+  date: 20 de novembro
+-
+  id: 103
+  title: "Leadership for testers in agile teams"
+  descriptions: ["The role of a tester on an agile team is so much more than “hey can you test this with your super testing skills”.",
+    "Testers are, on the one hand, chameleons who need to adapt their skills to new situations within the team. On the other hand, we can’t just react to situations – we need to lead the team, other testers, product owners and customers towards better quality.",
+    "Yet agile teams don’t generally bestow formal authority. And, as testers, we’re often trying to lead from a position that is still not always appreciated (“agile teams don’t need testers”, “testers are just bad developers”, “you’re just a tester”…).",
+    "In complex situations where we’re dealing with unknown unknowns plus sticky, messy humans, communication is key. A degree in psychology would sometimes be helpful. Multiple years of cat-herding too. In this workshop, Alex will focus on communication.",
+    "The workshop will consist of the following topics:",
+    "<ul><li>Communicating the value and role of testing</li>",
+    "<li>Testers as the communication glue for various stakeholders and within the team: talking about testing, risk and quality at the right level for the right audience</li>",
+    "<li>Enablement: Teaching, coaching, coercing and encouraging others within the team to take on quality-related tasks and to support the value of the product through testing</li>",
+    "<li>What testers and other team members can do together, resulting in better and more efficient results</li></ul>",
+    "The workshop will focus on hands-on exercises and activities."]
+  speakers: [3]
+  status: "ESGOTADO"
+  subtype: workshop
+  place: Lisboa, Altis Grand Hotel
+  language: en
+  price: "<a href='#prices'>Consultar tabela de preços</a>"
+  date: 20 de novembro
+-
+  id: 104
+  title: "Em atualização"
+  descriptions: [""]
+  subtype: workshop
+  speakers: []
+  place: Lisboa, Altis Grand Hotel
+  language: en
+  price: "<a href='#prices'>Consultar tabela de preços</a>"
+-
+  id: 105
+  title: "Agile Testing | User Experience Testing & Usability | Test Management"
+  descriptions: ["<h4>Agile Testing</h4>",
+    "<strong>Course Objective</strong>:",
+    "<ul><li>The course will provide an overview of Agile Frameworks and the role of the tester while addressing Agile Testing at every stage of the Agile or waterfall/hybrid lifecycle, and various Agile maturity levels.</li><li>The course will help you in boosting your knowledge regarding to testing roles, required skills and latest trends for Lean/Agile Projects.</li><li>The course will help you in learning the best practices and have hands-on testing experience for successful projects.</li></ul>",
+    "<strong>Intended Audience</strong>:",
+    "<ul><li>Agile Team Members, Test Engineers, QA Specialists, Business Analysts, System Analysts, Software Engineers, Test Managers, Project Managers, Enterprise Architects</li></ul>",
+    "<h4>User Experience Testing & Usability</h4>",
+    "<strong>Course Objective</strong>:",
+    "<ul><li>Improving Usability Testing in Global Standards with interactive and practical methods.</li><li>Latest Usability test techniques, methodologies in the courses with sample applications that provide you opportunity to gain skills and practical information.</li></ul>",
+    "<strong>Intended Audience</strong>:",
+    "<ul><li>Test Engineers, Usability Experts, Business Analysts, System Analysts, Programmers, Web Designers, Project Managers, Enterprise Architecture Specialists, Software Architects</li></ul>",
+    "<h4>Test Management</h4>",
+    "<strong>Course Objective</strong>:",
+    "<ul><li>Setting quality goals for the organization, Assessing organizational capabilities, Performing quality risk analysis, Using requirements documents and specifications</li><li>Creating and following test plans, Writing and tracking test cases and suites, Presenting difficult information to management</li><li>Managing bugs reports, Using people resources effectively, Planning and Deciding on Test automation and Tool selection</li></ul>",
+    "<strong>Intended Audience</strong>:",
+    "<ul><li>Test Managers, Test Leads, Test Engineers, Agile Team Members, QA Specialists, Project Managers, Business Analysts, System Analysts, Software Engineers</li></ul>"
+  ]
+  subtype: workshop
+  warning: "A workshop foi cancelada devido a não ter sido registado o número mínimo de inscrições."
+  speakers: [2]
+  status: "CANCELADO"
+  place: Coimbra
+  language: en
+  price: "<a href='#prices'>Consultar tabela de preços</a>"
+  moreinfo: "/assets/TesterYou_Trainings.pdf"
+  date: 22 de novembro
+-
+  id: 106
+  title: "Agile Testing | User Experience Testing & Usability | Test Management"
+  descriptions: ["<h4>Agile Testing</h4>",
+    "<strong>Course Objective</strong>:",
+    "<ul><li>The course will provide an overview of Agile Frameworks and the role of the tester while addressing Agile Testing at every stage of the Agile or waterfall/hybrid lifecycle, and various Agile maturity levels.</li><li>The course will help you in boosting your knowledge regarding to testing roles, required skills and latest trends for Lean/Agile Projects.</li><li>The course will help you in learning the best practices and have hands-on testing experience for successful projects.</li></ul>",
+    "<strong>Intended Audience</strong>:",
+    "<ul><li>Agile Team Members, Test Engineers, QA Specialists, Business Analysts, System Analysts, Software Engineers, Test Managers, Project Managers, Enterprise Architects</li></ul>",
+    "<h4>User Experience Testing & Usability</h4>",
+    "<strong>Course Objective</strong>:",
+    "<ul><li>Improving Usability Testing in Global Standards with interactive and practical methods.</li><li>Latest Usability test techniques, methodologies in the courses with sample applications that provide you opportunity to gain skills and practical information.</li></ul>",
+    "<strong>Intended Audience</strong>:",
+    "<ul><li>Test Engineers, Usability Experts, Business Analysts, System Analysts, Programmers, Web Designers, Project Managers, Enterprise Architecture Specialists, Software Architects</li></ul>",
+    "<h4>Test Management</h4>",
+    "<strong>Course Objective</strong>:",
+    "<ul><li>Setting quality goals for the organization, Assessing organizational capabilities, Performing quality risk analysis, Using requirements documents and specifications</li><li>Creating and following test plans, Writing and tracking test cases and suites, Presenting difficult information to management</li><li>Managing bugs reports, Using people resources effectively, Planning and Deciding on Test automation and Tool selection</li></ul>",
+    "<strong>Intended Audience</strong>:",
+    "<ul><li>Test Managers, Test Leads, Test Engineers, Agile Team Members, QA Specialists, Project Managers, Business Analysts, System Analysts, Software Engineers</li></ul>"
+  ]
+  status: "CANCELADO"
+  warning: "A workshop foi cancelada devido a não ter sido registado o número mínimo de inscrições."
+  subtype: workshop
+  speakers: [2]
+  place: Porto
+  language: en
+  price: "<a href='#prices'>Consultar tabela de preços</a>"
+  moreinfo: "/assets/TesterYou_Trainings.pdf"
+  date: 23 de novembro
+-
+  id: 999
+  title: ""
+  descriptions: [""]
+  subtype: "Call For Speakers"
+  speakers: []
+  language: en
