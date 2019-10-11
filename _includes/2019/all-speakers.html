@@ -2,15 +2,14 @@
     <h3>Oradores</h3>
     <div class="container">
                 
-        
+
         {% for speaker in site.data.y2019.speakers %}
-        
+
         <div class="col-sm-3">
+                <img class="speaker-image img-responsive" src="{{ site.data.y2019.conf.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl}}">
+                <h6>{{ speaker.name }} {{ speaker.surname }}</h6>
             <div class="btn btn-primary" data-toggle="modal" data-target="#speaker-bio">
-                     <img class="speaker-circle" 
-                    src="{{ site.data.y2019.conf.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl }}"
-                     alt="{{speaker.name}}"  class="img-responsive">
-                         <h6>{{ speaker.name }} {{ speaker.surname }}</h6>
+                     
             </div>
 
             <div class="modal fade" id="speaker-bio" tabindex="-1" role="dialog" aria-labelledby="speaker-bioTitle"
