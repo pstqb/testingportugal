@@ -8,7 +8,7 @@ navigationLinks:
  - {permalink: "/", text: "Home"}
  - {permalink: "/call-for-speakers", text: "Call for Speakers"}
  - {permalink: "#timeline", text: "Conferências Anteriores"}
- #- {permalink: "/schedule/", text: "Agenda"}
+ - {permalink: "/schedule/", text: "Agenda"}
  #- {permalink: "/speakers/", text: "Oradores"}
  - {permalink: "/workshops/", text: "Workshops"}
  - {permalink: "/course/", text: "Formação"}

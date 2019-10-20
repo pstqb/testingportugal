@@ -1,0 +1,23 @@
+-
+  time: "08:30"
+  track1:
+    id: 007
+    title: "Receção e Check-In"
+-
+  time: "09:30"
+  track1:
+    id: 005
+    title: "Abertura PSTQB"
+    descriptions: []
+    speakers: [3] 
+    language: pt
+-
+  time: "17:50"
+  track1:
+    id: 006
+    title: "Encerramento"
+    descriptions: []
+    speakers: [3] 
+    language: pt
+
+  
