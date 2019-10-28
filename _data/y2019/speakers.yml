@@ -73,6 +73,6 @@
   <p>Vipul invented Q-Patterns, a method of capturing testing knowledge and writing reusable test cases. This method is being used by various organizations across the world.
   <br/>He is also the inventor of Linguistic Analysis technique for identification of large number of tests from minimal documentation in shortest time possible.</p>"
   thumbnailUrl: vipul.jpg
-  rockstar: true
+  rockstar: false
   social:
     - {icon: "linkedin", link: "https://www.linkedin.com/in/vipulkocher/"}
