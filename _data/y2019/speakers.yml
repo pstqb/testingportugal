@@ -87,3 +87,14 @@
   rockstar: false
   social:
     - {icon: "linkedin", link: "https://www.linkedin.com/in/antonio-leitao/"}
+-
+  id: 10
+  name: "Tiago"
+  surname: "Alves"
+  company: "Oracle MySQL"
+  title: "Software Engineering Manager"
+  bio: "<p>Tiago is a Software Engineering Manager at Oracle MySQL responsible for the MySQL Cluster Quality Team. Previously, he worked at Talkdesk, Microsoft, OutSystems, and European Space Agency in different software engineering roles. Tiago has a PhD in Software Quality Metrics from a joint partnership between University of Minho, Braga and Software Improvement Group, Amsterdam.</p>"
+  thumbnailUrl: tiago-alves.jpg
+  rockstar: false
+  social:
+    - {icon: "linkedin", link: "https://www.linkedin.com/in/tiagomlalves/"}
