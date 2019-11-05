@@ -27,7 +27,8 @@
                         {% if session_speaker == speaker.id %}
                         <div class="row schedule-speaker">
                             <img class="rounded-circle mb-2 speaker-image" width="50" height="50"
-                                src="{{site.data.y2019.conf.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl}}">
+                                src="{{site.data.y2019.conf.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl}}"
+                                alt="{{speaker.name}}">
 
 
                             <div class="col schedule-speaker-info">
@@ -52,7 +53,8 @@
                         {% if session_speaker == speaker.id %}
                         <div class="row schedule-speaker">
                             <img class="rounded-circle mb-2 speaker-image" width="50" height="50"
-                                src="{{site.data.y2019.conf.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl}}">
+                                src="{{site.data.y2019.conf.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl}}"
+                                alt="{{speaker.name}}">
 
 
                             <div class="col schedule-speaker-info">
