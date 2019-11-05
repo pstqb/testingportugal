@@ -98,3 +98,14 @@
   rockstar: false
   social:
     - {icon: "linkedin", link: "https://www.linkedin.com/in/tiagomlalves/"}
+-
+  id: 11
+  name: "Luís"
+  surname: "Correia"
+  company: "Instituto de Informática, I.P. (II)"
+  title: "Teamleader - Test Automation Framework"
+  bio: "<p>The speaker is not a Tester by heart but rather by 'accident'. He has been a developer and systems administrator for quite some time and decided to embrace the challenge of creating a Framework for test automation at Instituto de Informática, I.P. (II).</p>"
+  thumbnailUrl: luis-correia.jpg
+  rockstar: false
+  social:
+    - {icon: "linkedin", link: "https://www.linkedin.com/in/lfcorreia/"}
