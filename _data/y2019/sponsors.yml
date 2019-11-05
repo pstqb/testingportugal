@@ -11,6 +11,10 @@
     maxwidth: 250
     elements: 
       - {name: "Microfocus", description: "Microfocus", link: "https://www.microfocus.com/", imageUrl: "microfocus.svg"}
+  -  
+    name: "Silver"
+    maxwidth: 200
+    elements: 
       - {name: "GASQ", description: "GASQ: Your international exam provider – Certifying people globally", link: "https://www.gasq.org/en/", imageUrl: "gasq.svg"}
       
 -
