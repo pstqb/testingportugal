@@ -75,10 +75,10 @@
     language: en
   track2:
     id: 011
-    title: "CFS - Luís Correia"
-    descriptions: []
-    speakers: [11] 
-    language: pt
+    title: "Is Test Automation a waste of time and resources?"
+    descriptions: ["<p>This talk is all about the challenges of going full steam with automated functional software testing.</p><p>For the last twenty years we at II have been developing software for the Portuguese Social Security. The current focus in on developing web based software aimed at improving citizens’ experiences as part of the 'SIMPLEX' government program.</p><p>Most software testing is done manually by skilled testers but recently there is a trend to become more Agile while developing software and, as such, testing will need to get up to date.</p>"]
+    speakers: [11]
+    language: en
 -
   time: "15:55"
   track1:
