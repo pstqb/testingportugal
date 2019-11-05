@@ -1,10 +1,10 @@
 -
-  time: "08:30"
+  time: "09:00"
   track1:
     id: 007
     title: "Receção e Check-In"
 -
-  time: "09:30"
+  time: "10:00"
   track1:
     id: 005
     title: "Abertura PSTQB"
@@ -12,7 +12,15 @@
     speakers: [3] 
     language: pt
 -
-  time: "17:50"
+  time: "10:30"
+  track1:
+    id: 005
+    title: "From Tester to Entrepreneur: What Have I Learned?"
+    descriptions: []
+    speakers: [5] 
+    language: en
+-
+  time: "17:30"
   track1:
     id: 006
     title: "Encerramento"
