@@ -36,6 +36,58 @@
     speakers: [4] 
     language: en
 -
+  time: "12:30"
+  track1:
+    id: 006
+    title: "Speaker NOESIS"
+    descriptions: []
+    speakers: [] 
+    language: pt
+-
+  time: "13:15"
+  track1:
+    id: 007
+    title: "Almoço"
+    descriptions: []
+    speakers: [] 
+    language: pt
+-
+  time: "14:45"
+  track1:
+    id: 008
+    title: "CFS - António Leitão"
+    descriptions: []
+    speakers: [] 
+    language: pt
+  track2:
+    id: 009
+    title: "Microfocus"
+    descriptions: []
+    speakers: [] 
+    language: pt
+-
+  time: "15:20"
+  track1:
+    id: 010
+    title: "CFS - Tiago Alves"
+    descriptions: []
+    speakers: [] 
+    language: pt
+  track2:
+    id: 011
+    title: "CFS - Luís Correia"
+    descriptions: []
+    speakers: [] 
+    language: pt
+-
+  time: "15:55"
+  track1:
+    id: 012
+    title: "Coffee Break"
+    descriptions: []
+    speakers: [] 
+    language: pt
+-
   time: "16:25"
   track1:
     id: 013
