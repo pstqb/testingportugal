@@ -76,3 +76,14 @@
   rockstar: false
   social:
     - {icon: "linkedin", link: "https://www.linkedin.com/in/vipulkocher/"}
+-
+  id: 7
+  name: "António"
+  surname: "Leitão"
+  company: "InnSpect by InnoWave"
+  title: "Data Scientist"
+  bio: "<p>António Leitão is a Data Scientist at InnSpect by InnoWave, aiming at making quality assurance jobs both easier and more effective through the use of Artificial Intelligence. Prior to joining InnoWave, António was a dedicated academic researcher in Machine Learning related topics. He is in the final stages of his PhD at the University of Coimbra. Currently, António is taking steps in industry R&D, exploring state-of-the-art technology with applicability on autonomous testing solutions, and contributing to making it available through InnSpect.</p>"
+  thumbnailUrl: antonio-leitao.jpg
+  rockstar: false
+  social:
+    - {icon: "linkedin", link: "https://www.linkedin.com/in/antonio-leitao/"}
