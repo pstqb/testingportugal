@@ -17,7 +17,7 @@
                     <th scope="row">{{ slot.time }}</th>
 
                     {% if slot.track1 %}
-                    <td colspan="{% if slot.track2 %}1{% else %}2{% endif %}">
+                    <td class="track1Data" colspan="{% if slot.track2 %}1{% else %}2{% endif %}">
                         <div class="row slot-title">
                             {{ slot.track1.title }}
                         </div>
@@ -26,13 +26,13 @@
                         {% for speaker in site.data.y2019.speakers %}
                         {% if session_speaker == speaker.id %}
                         <div class="row schedule-speaker">
-                            <div class="col-3 col-lg-1 p-0">
-                                <img class="rounded-circle mb-2" width="50" height="50"
-                                    src="{{site.data.y2019.conf.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl}}">
-                            </div>
-                            <div class="col schedule-speaker-info p-0">
+                            <img class="rounded-circle mb-2 speaker-image" width="50" height="50"
+                                src="{{site.data.y2019.conf.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl}}">
+
+
+                            <div class="col schedule-speaker-info">
                                 <div>{{speaker.name}} {{speaker.surname}}</div>
-                                <span class="speaker-company">{{speaker.company}}</span>
+                                <div class="speaker-company">{{speaker.company}}</div>
                             </div>
                         </div>
                         {% endif %}
@@ -51,13 +51,13 @@
                         {% for speaker in site.data.y2019.speakers %}
                         {% if session_speaker == speaker.id %}
                         <div class="row schedule-speaker">
-                            <div class="col-3 col-lg-1 p-0">
-                                <img class="rounded-circle mb-2" width="50" height="50"
-                                    src="{{site.data.y2019.conf.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl}}">
-                            </div>
-                            <div class="col schedule-speaker-info p-0">
+                            <img class="rounded-circle mb-2 speaker-image" width="50" height="50"
+                                src="{{site.data.y2019.conf.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl}}">
+
+
+                            <div class="col schedule-speaker-info">
                                 <div>{{speaker.name}} {{speaker.surname}}</div>
-                                <span class="speaker-company">{{speaker.company}}</span>
+                                <div class="speaker-company">{{speaker.company}}</div>
                             </div>
                         </div>
                         {% endif %}

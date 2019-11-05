@@ -4,11 +4,27 @@ section#schedule {
     }
     .slot-title {
         font-size: 18px;
+        padding-right: 2em;
+        margin-bottom: 1em;
     }
     .date {
         background-color: $main-color;
         color: white;
         font-size: 30px;
         margin-bottom: 1em;
+    }
+    .speaker-image {
+        display: block;
+        margin-right: 1em;
+    }
+
+    .schedule-speaker{
+        @media only screen and (max-width: 768px) {
+            flex-direction: column;
+        }
+    }
+    .schedule-speaker-info {
+        padding-right: 2em;
+        padding-left: 0;
     }
 }
