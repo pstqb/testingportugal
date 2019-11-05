@@ -55,13 +55,13 @@
   time: "14:45"
   track1:
     id: 008
-    title: "CFS - António Leitão"
+    title: "Autonomous testing agents powered by Artificial Intelligence"
     descriptions: []
-    speakers: [] 
-    language: pt
+    speakers: [7] 
+    language: en
   track2:
     id: 009
-    title: "Microfocus"
+    title: "Speaker Microfocus"
     descriptions: []
     speakers: [] 
     language: pt
