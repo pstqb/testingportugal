@@ -18,7 +18,6 @@
     <li>- Introduction to cloud computing</li>
     <li>- Characterisitcs of cloud service</li>
   </ul>
-
   <h6>Cloud Technology and terminology</h6>
   <ul>
     <li>- Virtualization as the backbone for cloud</li>
@@ -26,8 +25,7 @@
     <li>- SaaS, PaaS, IaaS</li>
     <li>- Costs of cloud infrastrcutre</li>
   </ul>
-
-  <h5>Walk in the clouds - Setting up an instance</h5>
+  <h6>Walk in the clouds - Setting up an instance</h6>
   <ul>
     <li>- A commercial cloud hosting service setup</li>
     <li>- Choosing OS, resources, instance type etc.</li>
@@ -41,16 +39,13 @@
     <li>- Availability zones</li>
     <li>- Elasticity and autoscaling</li>
   </ul>
-
-  <h5>Docker</h5>
+  <h6>Docker</h6>
   <ul>
     <li>- Docker introduction</li>
     <li>- Creating and publishing images</li>
     <li>- Docker and Kubernets</li>
-   
   </ul>
-
-  <h5>Testing cloud apps</h5>
+  <h6>Testing cloud apps</h6>
   <ul>
     <li>- Data location</li>
     <li>- Application Sharing</li>
@@ -65,8 +60,7 @@
     <li>- Elasticity and autoscaling</li>
     <li>- Cloud migration testing</li>
   </ul>
-
-  <h5>Disaster Recovery (DR)</h5>
+  <h6>Disaster Recovery (DR)</h6>
   <ul>
     <li>- Introduction</li>
     <li>- Types of setup </li>
@@ -84,22 +78,22 @@
 -
   id: 004
   title: "DevOps - Culture and CI/CD Pipeline design"
-  descriptions: ["<h5>LEGO4DevOps - Introducing DevOps Culture with a game (2 hours)</h5>
-  <p>Learning by Doing - Playing - Experiencing</p>
+  descriptions: ["<h6>LEGO4DevOps - Introducing DevOps Culture with a game (2 hours)</h6>
+  <p><b>Learning by Doing - Playing - Experiencing</b></p>
   <p>The workshop enables to understand:
   <ul>
-    <li>the importance of communication between Dev and Ops</li>
-    <li>the importance of collective goals rather then individual objectives</li>
-    <li>the need for collaboration on solving problems</li>
+    <li>- the importance of communication between Dev and Ops</li>
+    <li>- the importance of collective goals rather then individual objectives</li>
+    <li>- the need for collaboration on solving problems</li>
   </ul>
   </p>
-  <h5>Card Games for testers in an Agile Environment!(5 hours)</h5>
+  <h6>Card Games for testers in an Agile Environment!(5 hours)</h6>
   <p>Using two card games to design a Continuous Delivery pipelines in line with the Quality needs.
-<ul>
-<li>- <a href='https://www.praqma.com/stories/pipeline-card-game/'>Pipeline - The Game that Delivers!</a></li>
-<li>- <a href='https://www.ministryoftesting.com/dojo/series/testsphere'>TestSphere - Story Challenge</a></li>
-<ul>
-</p>
+  <ul>
+  <li>- <a href='https://www.praqma.com/stories/pipeline-card-game/'>Pipeline - The Game that Delivers!</a></li>
+  <li>- <a href='https://www.ministryoftesting.com/dojo/series/testsphere'>TestSphere - Story Challenge</a></li>
+  <ul>
+  </p>
 <p>What testing steps should you include in your Continuous Delivery pipeline? Don’t just string together existing manual processes - use simple, collaborative tools to design something better!</p>
 <p>Creating a Continuous Delivery (CD) pipeline is a key development in an organization’s transformation to DevOps. A CD Pipeline covers all the activities needed to transform a code change made by a developer into updated software bringing value to users. Steps in the pipeline include building a new version of the software as well as testing and deploying it. Exactly what kinds of build, test and deployment steps will depend on many factors and there is no ‘one perfect pipeline’ which will suit all situations.</p>
 <p>On top of the architecture of the pipeline, it is important to understand how well we covered our product quality related risks, and what testing techniques are needed to have proper, continuous quality assurance.</p>
