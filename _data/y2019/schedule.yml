@@ -99,8 +99,8 @@
   time: "16:45"
   track1:
     id: 014
-    title: "Testing intelligent machines: approaches & techniques"
-    descriptions: []
+    title: "Robotesting: are you ready for that yet? Approaches & techniques for testing intelligent machines!"
+    descriptions: ["<p>Artificial Intelligence, Machine Learning and other technical solutions, that together I call 'Machine intelligence', changes our lives rapidly. Intelligent machines have less predictable behavior. New approaches must be used for testing. Testing will extend to monitoring and forecasting. The importance of digital assurance & testing will increase to levels beyond what we are used to!</p><p>This is a keynote presentation about the challenges and practices of testers in todays IT-world.</p>"]
     speakers: [1] 
     language: en
 -
