@@ -87,12 +87,12 @@
     <li>- the need for collaboration on solving problems</li>
   </ul>
   </p>
-  <h6>Card Games for testers in an Agile Environment!(5 hours)</h6>
+  <h6>Card Games for testers in an Agile Environment! (5 hours)</h6>
   <p>Using two card games to design a Continuous Delivery pipelines in line with the Quality needs.
   <ul>
   <li>- <a href='https://www.praqma.com/stories/pipeline-card-game/'>Pipeline - The Game that Delivers!</a></li>
   <li>- <a href='https://www.ministryoftesting.com/dojo/series/testsphere'>TestSphere - Story Challenge</a></li>
-  <ul>
+  </ul>
   </p>
 <p>What testing steps should you include in your Continuous Delivery pipeline? Don’t just string together existing manual processes - use simple, collaborative tools to design something better!</p>
 <p>Creating a Continuous Delivery (CD) pipeline is a key development in an organization’s transformation to DevOps. A CD Pipeline covers all the activities needed to transform a code change made by a developer into updated software bringing value to users. Steps in the pipeline include building a new version of the software as well as testing and deploying it. Exactly what kinds of build, test and deployment steps will depend on many factors and there is no ‘one perfect pipeline’ which will suit all situations.</p>
