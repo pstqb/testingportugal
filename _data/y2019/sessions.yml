@@ -84,7 +84,7 @@
 -
   id: 004
   title: "DevOps - Culture and CI/CD Pipeline design"
-  descriptions: ["<h5>2 hours - LEGO4DevOps - Introducing DevOps Culture with a game</h5>",
+  descriptions: ["<h5>LEGO4DevOps - Introducing DevOps Culture with a game (2 hours)</h5>",
   "<p>Learning by Doing - Playing - Experiencing</p>",
   "<p>The workshop enables to understand:</p>",
   "<ul>
@@ -93,7 +93,7 @@
     <li>the need for collaboration on solving problems</li>
   </ul>",
   "<br>",
-  "<h5>5 hours - <a href='https://www.praqma.com/stories/pipeline-card-game/'>Pipeline</a> - The Game that Delivers!</h5>",
+  "<h5>Card Games for testers in an Agile Environment!(5 hours)</h5>",
   "<p>Using two card games to design a Continuous Delivery pipelines in line with the Quality needs.</p>
 <ul>
 <li>- <a href='https://www.praqma.com/stories/pipeline-card-game/'>Pipeline - The Game that Delivers!</a></li>
