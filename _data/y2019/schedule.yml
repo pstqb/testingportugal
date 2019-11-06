@@ -31,8 +31,8 @@
   time: "11:45"
   track1:
     id: 005
-    title: ""
-    descriptions: []
+    title: "DevOps challenge in Telco"
+    descriptions: ["<p>The presentation will focus on the DevOps challenge in Telco, and how it is different from Enterprise IT, with a deep dive on what are the challenges of DevOps. We will have special focus on Automated Everything and how an Agile team can collaborate to solve it: technically, mindset wise and with practices.</p><p>It will be presented if Test Automation on its own is enough to solve testing challenges in DevOps, and how Telco DevOps is expanding the picture of test Automation. We will discuss how the DevOps pipeline might look like, how the team shall behave and what extra they need to deliver.</p><p>The participants will learn about what is DevOps, how a DevOps pipeline looks like, and what are the best practices of collaboration.</p>"]
     speakers: [4] 
     language: en
 -
