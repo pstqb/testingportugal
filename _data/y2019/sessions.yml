@@ -13,11 +13,11 @@
   id: 002
   title: "Cloud Testing"
   descriptions: [<h5>Introduction</h5>
-  <ul>
+  <ol>
     <li>Introduction to the course</li>
     <li>Introduction to cloud computing</li>
     <li>Characterisitcs of cloud service</li>
-  </ul>
+  </ol>
 
   <h5>Cloud Technology and terminology</h5>
   <ul>
@@ -94,8 +94,20 @@
   </ul>",
   "<br>",
   "<h5>5 hours - <a href='https://www.praqma.com/stories/pipeline-card-game/'>Pipeline</a> - The Game that Delivers!</h5>",
-  "<p>A new card game to design Continuous Delivery pipelines</p>",
-  "<p>What testing steps should you include in your Continuous Delivery pipeline? Don’t just string together existing manual processes - use simple, collaborative tools to design something better!</p>"]
+  "<p>Using two card games to design a Continuous Delivery pipelines in line with the Quality needs.</p>
+<ul>
+<li>- <a href='https://www.praqma.com/stories/pipeline-card-game/'>Pipeline - The Game that Delivers!</a></li>
+<li>- <a href='https://www.ministryoftesting.com/dojo/series/testsphere'>TestSphere - Story Challenge</a></li>
+<ul>
+<p>What testing steps should you include in your Continuous Delivery pipeline? Don’t just string together existing manual processes - use simple, collaborative tools to design something better!</p>
+<p>Creating a Continuous Delivery (CD) pipeline is a key development in an organization’s transformation to DevOps. A CD Pipeline covers all the activities needed to transform a code change made by a developer into updated software bringing value to users. Steps in the pipeline include building a new version of the software as well as testing and deploying it. Exactly what kinds of build, test and deployment steps will depend on many factors and there is no ‘one perfect pipeline’ which will suit all situations.</p>
+<p>On top of the architecture of the pipeline, it is important to understand how well we covered our product quality related risks, and what testing techniques are needed to have proper, continuous quality assurance.</p>
+<p>During the workshop each team will:
+<ul>
+<li>- discuss the different product quality aspects of their given business scenario, and their importance</li>
+<li>- to design a continuous delivery pipeline (using cards), in line with the business expectations</li>
+<li>- to understand what else is needed to build a Test Strategy</li>
+</ul></p>"]
   subtype: workshop
   speakers: [4] 
   language: en
