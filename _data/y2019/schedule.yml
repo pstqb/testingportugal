@@ -55,7 +55,7 @@
   time: "14:45"
   track1:
     id: 008
-    title: "[Call for Speakers]<br>Autonomous testing agents powered by Artificial Intelligence"
+    title: "[Call for Speakers - 1º]<br>Autonomous testing agents powered by Artificial Intelligence"
     descriptions: ["<p>Integrating Artificial Intelligence is the key to cut testing efforts in Software development. So far, automated testing solutions have contributed positively to this goal, while also improving on effectiveness. However, current market solutions continue to depend on human intervention for central tasks. Test writing and maintenance are possibly the two biggest bottlenecks to full automation and are arguably the most demanding tasks for human testers. Recent advances in AI, especially on visual recognition and autonomous agents, supported by powerful learning techniques, can make promising contributions to further improve automation.</p><p>This presentation will introduce InnoWave's recent research focused on providing continuously higher degrees of AI assistance, towards full testing automation. It will cover how an artificial-agents system can be applied, both for processing delegated tasks and for running autonomously, in parallel to testing and software development. In either case, agents are fit for observation, navigation, and context-aware decision-making. It will also address each of these abilities and their respective supporting tasks. Particularly, the discussion will cover AI-powered machine vision to describe User Interfaces and give state and context for informed reasoning.</p><p>While the ideas discussed have cross-device applicability, this presentation will focus on a use case targeting Set-Top Boxes. It will show how AI assistance can improve on some of the most challenging and time-demanding tasks involved in test designing and maintenance. Ideas for future developments heading for higher levels of automation will also be discussed.</p>"]
     speakers: [8] 
     language: en
@@ -69,13 +69,13 @@
   time: "15:20"
   track1:
     id: 010
-    title: "[Call for Speakers]<br>Testing a 99.9999% Availability Distributed In-Memory Database"
+    title: "[Call for Speakers - 2º]<br>Testing a 99.9999% Availability Distributed In-Memory Database"
     descriptions: ["<p>MySQL Cluster is a in-memory distributed database designed for mission critical applications having six-nines availability.</p><p>To ensure the quality of every release, a series of automated functional test suites and manual exploratory tests are executed. Two main technologies are used for those test suites: MTR and Autotest. MTR tests are specified in a mix of SQL queries and scripting (mostly) validating querying scenarios. Autotest tests are specified in C++ using both Cluster API and Autotest framework validating load, performance, fault-tolerance (e.g crashes), and combination of operation scenarios (e.g. restarts, online backups/restores, upgrade/downgrades). Tests vary greatly in size (from few lines to several hundreds of lines of code), complexity, and running time (from a few minutes to several days to run) and are executed using different cluster configurations for different platforms.</p><p>Having a legacy of almost 15 years, we are facing challenges on how to scale the execution of the existent tests and analyze their results. Moreover, we’re looking at different test automation approaches in the context of the re-design of the overall release validation process.</p><p>In this presentation we’ll make a short introduction to the product and the test procedures we have in-place. We’ll discuss the challenges of running such long tests in a multitude of configurations and platforms, and present the avenues of work we’re exploring.</p>"]
     speakers: [10] 
     language: en
   track2:
     id: 011
-    title: "[Call for Speakers]<br>Is Test Automation a waste of time and resources?"
+    title: "[Call for Speakers - 3º]<br>Is Test Automation a waste of time and resources?"
     descriptions: ["<p>This talk is all about the challenges of going full steam with automated functional software testing.</p><p>For the last twenty years we at II have been developing software for the Portuguese Social Security. The current focus in on developing web based software aimed at improving citizens’ experiences as part of the 'SIMPLEX' government program.</p><p>Most software testing is done manually by skilled testers but recently there is a trend to become more Agile while developing software and, as such, testing will need to get up to date.</p>"]
     speakers: [11]
     language: en
