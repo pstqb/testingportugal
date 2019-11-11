@@ -1,3 +1,4 @@
+{% include 2019/sessions-modals.html %} 
 <section id="schedule">
     <h3>Agenda</h3>
     <div class="container text-left">
@@ -17,12 +18,15 @@
                     <th scope="row">{{ slot.time }}</th>
 
                     {% if slot.track1 %}
-                    <td class="track1Data" colspan="{% if slot.track2 %}1{% else %}2{% endif %}">
+                    {% for session in site.data.y2019.sessions %}
+                    {% if session.id == slot.track1.id %}
+                    <td class="track1Data" colspan="{% if slot.track2 %}1{% else %}2{% endif %}"
+                    data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
                         <div class="row slot-title">
-                            {{ slot.track1.title }}
+                            {{ session.title }}
                         </div>
-                        {% if slot.track1.speakers %}
-                        {% for session_speaker in slot.track1.speakers %}
+                        {% if session.speakers %}
+                        {% for session_speaker in session.speakers %}
                         {% for speaker in site.data.y2019.speakers %}
                         {% if session_speaker == speaker.id %}
                         <div class="row schedule-speaker">
@@ -41,14 +45,21 @@
                         {% endfor %}
                         {% endif %}
                     </td>
+                    {% break %}
                     {% endif %}
+                    {% endfor %}
+                    
+                    {% endif %}
+
                     {% if slot.track2 %}
-                    <td>
+                    {% for session in site.data.y2019.sessions %}
+                    {% if session.id == slot.track2.id %}
+                    <td data-toggle="modal" data-target="#sessionDetail-{{ session.id }}">
                         <div class="row slot-title">
-                            {{ slot.track2.title }}
+                            {{ session.title }}
                         </div>
-                        {% if slot.track2.speakers %}
-                        {% for session_speaker in slot.track2.speakers %}
+                        {% if session.speakers %}
+                        {% for session_speaker in session.speakers %}
                         {% for speaker in site.data.y2019.speakers %}
                         {% if session_speaker == speaker.id %}
                         <div class="row schedule-speaker">
@@ -67,6 +78,10 @@
                         {% endfor %}
                         {% endif %}
                     </td>
+                    {% break %}
+                    {% endif %}
+                    {% endfor %}
+                    
                     {% endif %}
                 </tr>
                 {% endfor %}

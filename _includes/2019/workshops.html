@@ -2,7 +2,7 @@
     <h3>Workshops</h3>
     <div class="container text-justify">
         <ul class="nav nav-tabs" id="myTab" role="tablist">
-            {% for session in site.data.y2019.sessions %}
+            {% for session in site.data.y2019.workshops %}
             {% if session.subtype == 'workshop' and session.speakers.size > 0 %}
             {% if forloop.first == true %}
             <li class="nav-item">
@@ -19,7 +19,7 @@
             {% endfor %}
         </ul>
         <div class="tab-content" id="myTabContent">
-            {% for session in site.data.y2019.sessions %}
+            {% for session in site.data.y2019.workshops %}
             {% if session.subtype == 'workshop' and session.speakers.size > 0 %}
             {% if forloop.first == true %}
             <div class="tab-pane fade show active" id="w{{ session.id }}" role="tabpanel"
