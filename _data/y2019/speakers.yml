@@ -88,6 +88,17 @@
   social:
     - {icon: "linkedin", link: "https://www.linkedin.com/in/antonio-leitao/"}
 -
+  id: 9
+  name: "Juan"
+  surname: "Botías"
+  company: "Micro Focus"
+  title: "Testing and DevOps Solutions Consultant"
+  bio: "<p>Juan Botías is a presales consultant in the Quality and DevOps area in Micro Focus since 2014. Previously, he worked for more than 7 years as a developer and tester in companies such as Sogeti and Ricoh. Juan holds an Engineer degree in Computer Science and is ISTQB® Certified Tester.</p>"
+  thumbnailUrl: juan-botias.jpg
+  rockstar: false
+  social:
+    - {icon: "linkedin", link: "https://www.linkedin.com/in/johnbojaen/"}
+-
   id: 10
   name: "Tiago"
   surname: "Alves"
