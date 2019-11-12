@@ -24,3 +24,4 @@
     name: ""
     elements:
       - {name: "Clariter", description: "Clariter", link: "https://www.claritergroup.com/", imageUrl: "clariter.png"}
+      - {name: "Delta Q", description: "Delta Q - a vida começa agora", link: "https://www.mydeltaq.com/", imageUrl: "delta.jpg"}
