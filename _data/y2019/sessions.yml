@@ -22,7 +22,7 @@
   language: en
 -
   id: 006
-  title: "Speaker NOESIS"
+  title: "[Speaker NOESIS]"
   descriptions: []
   speakers: [7] 
   language: pt
@@ -40,10 +40,10 @@
   language: en
 -
   id: 009
-  title: "Speaker Microfocus"
+  title: "[Speaker Micro Focus]"
   descriptions: []
   speakers: [9] 
-  language: pt
+  language: en
 -
   id: 010
   title: "[Call for Speakers - 2º]<br>Testing a 99.9999% Availability Distributed In-Memory Database"
