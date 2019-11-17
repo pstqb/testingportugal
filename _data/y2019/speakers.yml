@@ -77,6 +77,17 @@
   social:
     - {icon: "linkedin", link: "https://www.linkedin.com/in/vipulkocher/"}
 -
+  id: 7
+  name: "José Manuel"
+  surname: "Chang"
+  company: "Noesis"
+  title: "DevOps & Automation at Noesis"
+  bio: ""
+  thumbnailUrl: jose-chang.jpg
+  rockstar: true
+  social:
+    - {icon: "linkedin", link: "https://www.linkedin.com/in/josechang/"}
+-
   id: 8
   name: "António"
   surname: "Leitão"
