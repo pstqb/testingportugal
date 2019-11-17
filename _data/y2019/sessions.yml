@@ -22,10 +22,10 @@
   language: en
 -
   id: 006
-  title: "[Speaker NOESIS]"
-  descriptions: []
-  speakers: [7] 
-  language: pt
+  title: "[Speaker Noesis]<br>Service Virtualization to enable DevOps"
+  descriptions: ["<p>In an increasingly challenging market, Service Virtualization simulates the behavior of specific components in heterogeneous component-based applications such as API-driven applications, cloud-based applications and service-oriented architectures. Virtualizing test assets will enable an organization’s DevOps strategy, providing extensive test coverage and ensuring opportunities for acceleration. Noesis & Micro Focus invite you to explore the roots of Service Virtualization in continuous testing, and its benefits in building and provisioning environments for functional testing.</p>"]
+  speakers: [7,9] 
+  language: en
 -
   id: 007
   title: "Almoço"
@@ -40,8 +40,8 @@
   language: en
 -
   id: 009
-  title: "[Speaker Micro Focus]"
-  descriptions: []
+  title: "[Speaker Micro Focus]<br>Agile testing End2End in complex environments, relying on Service Virtualization"
+  descriptions: ["<p>Today’s composite app initiatives often create a difficult dilemma for development and testing teams: meet the project deadline OR deliver a high-quality service. The core issue: growing interdependency among functional components leads to reliance on resources from third-party vendors, which leads to wait time and extra cycles.</p><p>Service Virtualization software removes the development and testing “wait time” that can slow delivery of applications. It enables  teams to easily create realistic simulations of service behavior, so they can stay on schedule even when dependent application components or systems aren’t available. Stated in simple language, they can focus on service quality rather than resource constraints.</p><p>In this case study, Service Virtualization was used to allow access to limited or unavailable services in a SAP environment, leveraging a dramatic reduction in time-to-market.</p>"]
   speakers: [9] 
   language: en
 -
