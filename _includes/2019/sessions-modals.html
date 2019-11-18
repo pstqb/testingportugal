@@ -10,10 +10,32 @@
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
-                <div class="modal-body">
+                <div class="modal-body container">
                     {% for description in session.descriptions %}
                     {{description}}
                     {% endfor %}
+                    
+                    {% for speakerId in session.speakers %}
+                        {% for speaker in site.data.y2019.speakers %}
+                            {% if speakerId == speaker.id %}
+                                <hr></hr>
+                                <div class="speaker-details-wrapper row m-0">
+                                    <div class="speaker-image col-12 col-lg-2">
+                                        <img class="rounded-circle mb-2 speaker-image" width="100" height="100"
+                                        src="{{site.data.y2019.conf.baseurl | append: '/img/speakers/' | append: speaker.thumbnailUrl}}"
+                                        alt="{{speaker.name}}">
+                                    </div>
+                                    <div class="speaker-details col">
+                                        <div class="row speaker-name">{{speaker.name}} {{speaker.surname}}</div>
+                                        <div class="row speaker-job">{{speaker.title}} @ {{speaker.company}}</div>
+                                        <div class="row speaker-description text-justify">{{speaker.bio}}</div>
+                                    </div>
+                                </div>
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                    
                 </div>
             </div>
         </div>
