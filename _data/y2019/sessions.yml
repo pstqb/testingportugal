@@ -40,8 +40,8 @@
   language: en
 -
   id: 009
-  title: "[Speaker Micro Focus]<br>Agile testing End2End in complex environments, relying on Service Virtualization"
-  descriptions: ["<p>Today’s composite app initiatives often create a difficult dilemma for development and testing teams: meet the project deadline OR deliver a high-quality service. The core issue: growing interdependency among functional components leads to reliance on resources from third-party vendors, which leads to wait time and extra cycles.</p><p>Service Virtualization software removes the development and testing “wait time” that can slow delivery of applications. It enables  teams to easily create realistic simulations of service behavior, so they can stay on schedule even when dependent application components or systems aren’t available. Stated in simple language, they can focus on service quality rather than resource constraints.</p><p>In this case study, Service Virtualization was used to allow access to limited or unavailable services in a SAP environment, leveraging a dramatic reduction in time-to-market.</p>"]
+  title: "[Speaker Micro Focus]<br>DevOps and containers: improving QA and delivery with dockers"
+  descriptions: ["<p>During the last few years, dockerization technologies have spread in the release of applications and products, but can we also take advantage of dockers in preproduction? What benefits can we get from using containers in functional and load testing phases?</p><p>In this talk, Juan Botías will cover the different use cases for dockers within the software develop and release phases, with special emphasis on testing and deployment automation. From reduction in the infrastructure needed to get a higher test coverage, to sandboxing for isolation from external factors and reduction of undesired collateral effects, through speed rising in test preparation and execution.</p>"]
   speakers: [9] 
   language: en
 -
